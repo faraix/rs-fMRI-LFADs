@@ -7,3 +7,17 @@ Previous studies have implemented the VAE model to represent spatial patterns in
 
 We hypothesize that the VAE can extract different latent distributions to reveal the distinctive network interactions underlying various states. We also believe the reconstruction of rsfMRI images offers a post-processing strategy for corrupted data recovery and motion correction.
 
+Clone this repo and go INTO the rsFMRI_LFADs folder
+
+Linux:
+
+conda config --add channels conda-forge
+conda env create -n DS_tutorial environment.yml
+
+Windows:
+
+conda config --add channels conda-forge
+conda env create -f environment_windows.yml
+conda activate DS_Tutorial
+set CONDA_DLL_SEARCH_MODIFICATION_ENABLE=1 
+pip install "jax[cpu]===0.3.14" -f https://whls.blob.core.windows.net/unstable/index.html --use-deprecated legacy-resolver
