@@ -7,7 +7,7 @@ Previous studies have implemented the VAE model to represent spatial patterns in
 
 We hypothesize that the VAE can extract different latent distributions to reveal the distinctive network interactions underlying various states. We also believe the reconstruction of rsfMRI images offers a post-processing strategy for corrupted data recovery and motion correction.
 
-Clone this repo and go INTO the rsFMRI_LFADs folder
+Clone this repo and go INTO the IMBIZO2022_DS_Tutorial folder
 
 Linux:
 
