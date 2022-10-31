@@ -1,5 +1,5 @@
 # rs-fMRI-LFADs
-Unsupervised representation learning of cortical rsfMRI activity
+## Unsupervised representation learning of cortical rsfMRI activity
 
 Resting-state functional MRI (rsfMRI) is a technique used to study functional connectivity of the brain at rest. Functional connectivity refers to anatomically separate GM regions with temporal correlations in neuronal activity patterns. These GM regions form functional networks for individuals or populations in various behavioral or disease states.
 
